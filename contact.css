@@ -1,0 +1,44 @@
+#background{width: 1200px;}
+
+form{
+	position: absolute;
+	margin-top: 25%;
+	font-size: 45px;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+}
+
+#overlay{
+	padding: 0.25em;
+	min-width: 10em;
+	background-color: #ffcccc;
+	border-radius: 5%;
+	opacity: 0.98;
+	padding: 0.5em;
+}
+
+article span, label{
+	font-size: 40%;
+	color: black;
+	color: rgb(241, 121, 143);
+	margin-top: 1.5em;
+}
+
+.buttons{
+	margin-left: 2em;
+}
+
+#radio label{
+	font-size: 40%;
+	margin: 0em 0.3em;
+}
+
+.rate label{
+	margin: 0em;
+}
+
+span.error{
+	font-size: 25%;
+	margin-left: 0.25em;
+	color: red;
+}
