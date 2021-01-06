@@ -48,7 +48,7 @@ function currentDiv4(n) {
 function showDivs1(n) {
   var i;
   var x = document.getElementsByClassName("mySlides1"); 
-  var dots = document.getElementsByClassName("demo"); 
+  var dots = document.getElementsByClassName("demo1"); 
 
   if (n > x.length) {slideIndex1 = 1} //cycle to first
   if (n < 1) {slideIndex1 = x.length} //cycle to last
@@ -72,7 +72,7 @@ function showDivs1(n) {
 function showDivs2(n) {
   var i;
   var x = document.getElementsByClassName("mySlides2"); 
-  var dots = document.getElementsByClassName("demo"); 
+  var dots = document.getElementsByClassName("demo2"); 
 
   if (n > x.length) {slideIndex2 = 1} //cycle to first
   if (n < 1) {slideIndex2 = x.length} //cycle to last
@@ -96,7 +96,7 @@ function showDivs2(n) {
 function showDivs3(n) {
   var i;
   var x = document.getElementsByClassName("mySlides3"); 
-  var dots = document.getElementsByClassName("demo"); 
+  var dots = document.getElementsByClassName("demo3"); 
 
   if (n > x.length) {slideIndex3 = 1} //cycle to first
   if (n < 1) {slideIndex3 = x.length} //cycle to last
@@ -120,7 +120,7 @@ function showDivs3(n) {
 function showDivs4(n) {
   var i;
   var x = document.getElementsByClassName("mySlides4"); 
-  var dots = document.getElementsByClassName("demo"); 
+  var dots = document.getElementsByClassName("demo4"); 
 
   if (n > x.length) {slideIndex4 = 1} //cycle to first
   if (n < 1) {slideIndex4 = x.length} //cycle to last
