@@ -61,6 +61,7 @@ function showDivs1(n) {
   //hids dots
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" w3-white", "");
+    console.log(dots[i]);
   }
   console.log(slideIndex1);
   console.log(x.length);
