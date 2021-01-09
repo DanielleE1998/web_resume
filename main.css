@@ -34,7 +34,7 @@
 }
 
 .contact{
-color: var(--green);
+    color: var(--green);
     background-color: transparent;
     border: 1px solid var(--green);
     border-radius: var(--border-radius);
@@ -62,7 +62,7 @@ h1, h2, h3, a{
 
 /*Subheading CSS:*/
 #sub_heading{
-    color: pink;
+    color: var(--light-slate);
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
