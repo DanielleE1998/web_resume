@@ -46,7 +46,6 @@ section img{
 
 
 img.button{
-
     width: 35%; 
     height: auto;
 	border: 2px dashed black;
@@ -55,7 +54,6 @@ img.button{
 }
 
 p.subtitle{
-    font-size: 110%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: light;
     text-align: center;
