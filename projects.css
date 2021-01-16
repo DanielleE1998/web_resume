@@ -4,6 +4,8 @@
     font-size: 50px;
     font-weight: lighter;
 }
+#page_title{margins:2em;}
+#page_article{line-height:2em;}
 
 .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides_gif {
 	display: none;
