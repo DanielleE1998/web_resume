@@ -1,4 +1,7 @@
-#background{width: 1200px;}
+#background{
+	width: 1200px;
+	margin-left: 150px;
+}
 
 form{
 	position: absolute;
