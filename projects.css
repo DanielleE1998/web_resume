@@ -55,14 +55,10 @@ img.button{
 }
 
 p.subtitle{
-    font-size: 110%;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    text-decoration: underline;
+    font-weight: light;
 	text-align: center;
-    padding: 0 15px;
-
-	
+    padding: 0 15px;	
 }
 
 table 
