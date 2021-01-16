@@ -56,10 +56,6 @@ h1, h2, h3, a{
     text-align: center;
 }
 
-#page_title{
-    text-decoration: none;
-}
-
 /*Subheading CSS:*/
 #sub_heading{
     color: var(--light-slate);
