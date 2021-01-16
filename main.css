@@ -132,6 +132,7 @@ footer{
 }
 
 #footer_content{
+	text-align: center;
     padding: .1em;
     font-size: 20px;
     color: rgb(241, 121, 143);
