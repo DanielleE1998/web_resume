@@ -35,7 +35,8 @@
 	</section>
     <article class="page_article">
 	<h2 class="page_title">Contact Form</h2>
-		<form id="contact" method="post" enctype="text/plain">
+		<form id="contact" name="contact" action="mailto:contact@danielle.mawson.1998@gmail.com" 
+			method="post" enctype="text/plain">
 			<div id="overlay">
 				<span class="form_span">First Name:</span>
 				<input type="text" name="fname" id="fname"><span id="error1" class="error">*</span><br>
@@ -53,7 +54,7 @@
 				<textarea id="comments" name="comments"></textarea><br>
 			</div>
 			<div class="buttons">
-				<input class="button" type="button" id="submit" value="Send">
+				<input class="button" type="button" id="send" value="Send">
 				<input class="button" type="button" id="reset" value="Reset">
 			</div>
 		</form>
