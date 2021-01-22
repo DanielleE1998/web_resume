@@ -24,7 +24,7 @@ var processEntries = function() {
 			error1 = "First name is required.";
 		}
 		else {
-			var error1 = ""; 
+			error1 = ""; 
 		}
 		$("error1").firstChild.nodeValue = error1;
 
@@ -33,7 +33,7 @@ var processEntries = function() {
 			error2 = "Last name is required.";
 		}
 		else {
-			var error2 = ""; 
+			error2 = ""; 
 		}
 		$("error2").firstChild.nodeValue = error2;
 
@@ -45,7 +45,7 @@ var processEntries = function() {
 			error3= "Not a valid email."
 		}
 		else {
-			var error3 = ""; 
+			error3 = ""; 
 		}
 		$("error3").firstChild.nodeValue = error3;
 	}
@@ -53,6 +53,7 @@ var processEntries = function() {
 		var error1 = ""; 
 		var error2 = ""; 
 		var error3 = ""; 
+		document.contact.submit();
 	}
 };
 
@@ -72,7 +73,7 @@ var clearEntries = function() {
 
 
 window.onload = function() {
-	$("submit").onclick = processEntries;
+	$("send").onclick = processEntries;
 	$("reset").onclick = clearEntries;
 };
 
