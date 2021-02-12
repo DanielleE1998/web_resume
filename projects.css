@@ -22,7 +22,7 @@ section img{
 	border-radius: 5%;
 }
 
-.w3-container{width: 750px;}
+.w3-container{width: 600px;}
 .w3-left, .w3-right, .w3-badge {cursor: pointer}
 .w3-badge {height:13px; width:13px; padding:0}
 
