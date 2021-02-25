@@ -3,7 +3,7 @@ var slideIndex2 = 1;
 var slideIndex3 = 1;
 var slideIndex4 = 1;
 document.addEventListener("DOMContentLoaded", function(event) {
-showDivs1(slideIndex1);
+/*showDivs1(slideIndex1);*/
 showDivs2(slideIndex2);
 showDivs3(slideIndex3);
 showDivs4(slideIndex4);
