@@ -1,4 +1,4 @@
-var slideIndex1 = 1;
+//var slideIndex1 = 1;
 var slideIndex2 = 1;
 var slideIndex3 = 1;
 var slideIndex4 = 1;
@@ -10,10 +10,11 @@ showDivs4(slideIndex4);
 });
 
 //Arrow Functions_____________________________
-
+/*
 function plusDivs1(n) {
   showDivs1(slideIndex1 += n);
 }
+*/
 
 function plusDivs2(n) {
   showDivs2(slideIndex2 += n);
@@ -45,6 +46,7 @@ function currentDiv4(n) {
 }
 
 //Update Functions_____________________________
+/*
 function showDivs1(n) {
   var i;
   var x = document.getElementsByClassName("mySlides1"); 
@@ -58,7 +60,7 @@ function showDivs1(n) {
     x[i].style.display = "none";  
   }
 
-  //hids dots
+  //hide dots
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" w3-white", "");
   }
@@ -68,6 +70,7 @@ function showDivs1(n) {
   x[slideIndex1-1].style.display = "block";  
   dots[slideIndex1-1].className += " w3-white";
 }
+*/
 
 function showDivs2(n) {
   var i;
